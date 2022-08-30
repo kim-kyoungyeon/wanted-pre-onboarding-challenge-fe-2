@@ -1,17 +1,16 @@
-import React from 'react';
-import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import ToDoList from './components/ToDoList';
 
 function App() {
   return (
-    <BrowserRouter basename=''>
+    <Router>
       <Switch>
-        <Route path={'/home'} exact>
+        <Route   path='/'  >
           <ToDoList />
-        </Route>
+     </Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
