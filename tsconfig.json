@@ -21,17 +21,6 @@
     "jsx": "react-jsx" /* 생성될 JSX 코드 설정: 'preserve', 'react-native', or 'react'. */
   },
 
-  "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react-jsx",
-    "allowJs": true,
-    "moduleResolution": "node",
-    "strict": false,
-    "allowSyntheticDefaultImports": true
-  },
-
-  "include": ["src", "webpack.config.js"]
+  "include": ["src", "webpack.config.js", ".eslintrc.json"],
+  "exclude": ["node_modules"]
 }
