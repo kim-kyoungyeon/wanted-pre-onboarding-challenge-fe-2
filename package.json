@@ -1,7 +1,7 @@
 {
   "name": "jsdoc-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "- 1 주요 라이브러리 <Br/>\r   react",
   "private": true,
   "main": "index.js",
   "dependencies": {
@@ -64,5 +64,15 @@
     "jsdoc": "^3.6.11",
     "prettier": "2.7.1"
   },
-  "homepage": "http://chuhongkyu.github.io/todolist"
+  "homepage": "http://chuhongkyu.github.io/todolist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim-kyoungyeon/wanted-pre-onboarding-challenge-fe-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kim-kyoungyeon/wanted-pre-onboarding-challenge-fe-2/issues"
+  }
 }

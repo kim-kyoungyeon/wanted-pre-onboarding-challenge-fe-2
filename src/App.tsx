@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route   path='/'  >
+        <Route  path='/'>
           <ToDoList />
      </Route>
       </Switch>
