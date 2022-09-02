@@ -1,16 +1,19 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 import ToDoList from './components/ToDoList';
-
+import GlobalStyle from './styles/Global';
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route  path='/'>
-          <ToDoList />
-     </Route>
-      </Switch>
-    </Router>
+    <>
+      <GlobalStyle />
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <ToDoList />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 

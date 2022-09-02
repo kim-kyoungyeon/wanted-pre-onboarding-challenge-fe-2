@@ -2,7 +2,7 @@
   "plugins": ["plugins/markdown"],
   "source": {
     "include": ["src/"],
-    "includePattern": ".js$",
+    "includePattern": ".ts$",
     "excludePattern": "(node_modules/|docs)_"
   },
   "sourceType": "module",
